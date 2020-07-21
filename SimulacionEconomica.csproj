@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{5F32E0A5-4122-4649-BF16-02DDB6BB5CC3}</ProjectGuid>
+    <ProjectGuid>{3DA7C72F-7D43-4887-85D0-5662FCF8C3E8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>ConsoleApplication</AssemblyName>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitattributes" />
     <None Include=".gitignore" />
     <None Include=".git\config" />
     <None Include=".git\description" />
@@ -63,23 +64,35 @@
     <None Include=".git\logs\HEAD" />
     <None Include=".git\logs\refs\heads\master" />
     <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\0c\7f537d8ca6f7f1953e7df05eb996f9e4dfadf0" />
     <None Include=".git\objects\1c\19cd88df1b26d64d6b2b27eb5b8f04478f4b90" />
     <None Include=".git\objects\21\cfaec91836f494d6f33c2a333dd1bf788beb46" />
     <None Include=".git\objects\40\a81d63105f5ad29becff50acbe3c2999fd9867" />
     <None Include=".git\objects\56\16514ad144db1fe327d174b9b1a24640fa91b7" />
+    <None Include=".git\objects\6b\b7bcb649afb93c7e1a3e68407d47f0de01bd5b" />
+    <None Include=".git\objects\7b\3128a3c28c0d785449a3af717cac2a9a02f035" />
     <None Include=".git\objects\84\6aea076026c4e2f3d8a541aac416e316a2999f" />
+    <None Include=".git\objects\84\7e810782211b7d1a7e0a56467706cadd0798ed" />
+    <None Include=".git\objects\87\a45314fe7cefb47e4229731f2ccedde9a97967" />
+    <None Include=".git\objects\91\bcc1ef2431d34df58e062de10aa426bfc1e659" />
+    <None Include=".git\objects\9f\b7a86218d500a20da5b625d450f0c2ba48c5d1" />
+    <None Include=".git\objects\c2\cd04da5d3adf34edb7b81da2c6d53d39c6332f" />
     <None Include=".git\objects\df\cfd56f444f9ae40e1082c07fe254cc547136cf" />
+    <None Include=".git\objects\e2\e5cc3a74a134b755d65b3ddfe3894ac2f8ab01" />
+    <None Include=".git\objects\e6\f1f8064816ab11f2269e642ac56f795a40e54c" />
     <None Include=".git\objects\f2\88702d2fa16d3cdf0035b15a9fcbc552cd88e7" />
     <None Include=".git\objects\f3\ac3d4280464bc1f0812d96f18a1b312fa54027" />
     <None Include=".git\packed-refs" />
     <None Include=".git\refs\heads\master" />
     <None Include=".git\refs\remotes\origin\HEAD" />
     <None Include=".vs\POOBasic\v16\.suo" />
+    <None Include=".vs\SimulacionEconomica\v16\.suo" />
     <None Include=".vs\slnx.sqlite" />
     <None Include=".vs\VSWorkspaceState.json" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Celular.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>

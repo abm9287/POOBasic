@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30225.117
+VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulacionEconomica", "SimulacionEconomica.csproj", "{5F32E0A5-4122-4649-BF16-02DDB6BB5CC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulacionEconomica", "SimulacionEconomica.csproj", "{3DA7C72F-7D43-4887-85D0-5662FCF8C3E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5F32E0A5-4122-4649-BF16-02DDB6BB5CC3}.Debug|x86.ActiveCfg = Debug|x86
-		{5F32E0A5-4122-4649-BF16-02DDB6BB5CC3}.Debug|x86.Build.0 = Debug|x86
-		{5F32E0A5-4122-4649-BF16-02DDB6BB5CC3}.Release|x86.ActiveCfg = Release|x86
-		{5F32E0A5-4122-4649-BF16-02DDB6BB5CC3}.Release|x86.Build.0 = Release|x86
+		{3DA7C72F-7D43-4887-85D0-5662FCF8C3E8}.Debug|x86.ActiveCfg = Debug|x86
+		{3DA7C72F-7D43-4887-85D0-5662FCF8C3E8}.Debug|x86.Build.0 = Debug|x86
+		{3DA7C72F-7D43-4887-85D0-5662FCF8C3E8}.Release|x86.ActiveCfg = Release|x86
+		{3DA7C72F-7D43-4887-85D0-5662FCF8C3E8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4DFC01FF-4388-4869-85C2-6786E67D2173}
+		SolutionGuid = {5F0857D3-A58E-4D13-AF69-AF3794F3EA67}
 	EndGlobalSection
 EndGlobal

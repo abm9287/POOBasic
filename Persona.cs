@@ -1,17 +1,38 @@
-﻿
-namespace SimulacionEconomica
+﻿namespace SimulacionEconomica
 {
     class Persona
     {
-        //Propiedades
+        // Propiedades - Estado
         public int Id { get; set; }
         public string Nombre { get; set; }
 
-        //Métodos (Comportamiento)
-        public string Saludar(string Nombre)
+        Celular celular;
+        public Celular MiCelular
         {
+            get
+            {
+                return celular;
+            }
 
-            return $"Hola {Nombre} me llamo {this.Nombre} ";
+            set
+            {
+                celular = value;
+                celular.Propietario = this;
+            }
+        }
+
+        // Métodos - Comportamiento
+        public string Saludar(string nombre)
+        {
+            return $"Hola {nombre} me llamo {Nombre}";
+        }
+
+        public string Productos()
+        {
+            if (celular != null)
+                return $"Tengo un celular {celular.Modelo}";
+            else
+                return "No tengo celular";
         }
     }
 }

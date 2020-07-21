@@ -4,23 +4,37 @@ namespace SimulacionEconomica
 {
     class Program
     {
-        public static void Main(string []args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Hola mundo!");
+            Random generador = new Random();
 
-            int id = 1;
-            string nombre = "Anita";
+            int id = generador.Next();
+            string nombre = "Darwin";
 
-            Persona investigador = new Persona
+            Celular celular = new Celular
             {
-                Id = id,
-                Nombre = nombre
+                Id = generador.Next(),
+                Marca = "Xiomi",
+                Modelo = "Redmi note 8",
+                Precio = 300
             };
 
-            string personaLaQueSaludo = "Gabriel García Moreno ";
-            string saludo = investigador.Saludar(personaLaQueSaludo);
+            Persona estudiante = new Persona
+            {
+                Id = id,
+                Nombre = nombre,
+                MiCelular = celular
+            };
+
+            string personaLaQueSaludo = "Gorky";
+
+            string saludo = estudiante.Saludar(personaLaQueSaludo);
+            string productos = estudiante.Productos();
 
             Console.WriteLine(saludo);
+            Console.WriteLine(productos);
+
             Console.ReadKey();
         }
     }
