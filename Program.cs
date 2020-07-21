@@ -9,7 +9,7 @@ namespace SimulacionEconomica
             Console.WriteLine("Hola mundo!");
 
             int id = 1;
-            string nombre = "Darwin";
+            string nombre = "Anita";
 
             Persona investigador = new Persona
             {
@@ -17,7 +17,7 @@ namespace SimulacionEconomica
                 Nombre = nombre
             };
 
-            string personaLaQueSaludo = "Gorky";
+            string personaLaQueSaludo = "Gabriel García Moreno ";
             string saludo = investigador.Saludar(personaLaQueSaludo);
 
             Console.WriteLine(saludo);
