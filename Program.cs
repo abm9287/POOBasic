@@ -10,7 +10,7 @@ namespace SimulacionEconomica
             Random generador = new Random();
 
             int id = generador.Next();
-            string nombre = "Darwin";
+            string nombre = "Anita ";
 
             Celular celular = new Celular
             {
